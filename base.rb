@@ -4,8 +4,6 @@ if yes?("Do you want to use RSpec for testing?")
   generate :rspec
 end
 
-generate :nifty_layout
-
 git :init
 
 run "echo 'TODO add readme content' > README"
